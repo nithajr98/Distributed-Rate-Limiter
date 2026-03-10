@@ -9,3 +9,10 @@ $_.Exception.Response.StatusCode.value__
 }
 }
 
+This project has:
+   -Distributed rate limiter
+   -Atomic Redis Lua script
+   -Token bucket algorithm
+   -Spring Boot integration
+   -Script caching (EVALSHA)
+   -TTL cleanup
