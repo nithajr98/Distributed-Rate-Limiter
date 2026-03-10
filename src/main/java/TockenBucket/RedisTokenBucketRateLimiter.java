@@ -49,9 +49,6 @@ public class RedisTokenBucketRateLimiter {
 
         return result!=null && result==1;
 
-
-
-
     }
     String redisKey(String userId){
         return "rate_limit:"+userId;
