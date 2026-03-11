@@ -236,13 +236,4 @@ Potential enhancements:
 
 ---
 
-# Resume Description
 
-Distributed Rate Limiter (Spring Boot, Redis, Lua)
-
-* Built a distributed **token bucket rate limiter** using Redis and Lua scripts for atomic updates across multiple service instances.
-* Implemented a **Spring middleware filter** to enforce per-user API limits before controller execution.
-* Designed Redis hash-based bucket storage with TTL eviction for inactive users.
-* Verified correctness across multiple application instances sharing a centralized Redis store.
-
----
